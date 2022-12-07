@@ -11,7 +11,7 @@ services:
         volumes:
             - /var/lib/docker/volumes/web/_data:/config:Z
             - /var/lib/docker/volumes/cronetab/_data:/var/spool/cron/crontabs:Z
-            - 	/var/lib/docker/volumes/transcripts/_data:/usr/share/jitsi-meet/transcripts:Z
+            - /var/lib/docker/volumes/transcripts/_data:/usr/share/jitsi-meet/transcripts:Z
         environment:
             - AMPLITUDE_ID
             - ANALYTICS_SCRIPT_URLS
